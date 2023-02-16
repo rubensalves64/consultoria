@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  body{
+
+
+  }
+  .whatsapp{
+    height: 20px;
+  }
+  .header{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-around;
+  }
+  header{
+    background-color:rgb(8, 8, 69);
+    padding: 30px 0 ;
+  }
+  .rubens{
+    color: white;
+    font-size: 35px;
+  }
+  .consultoria{
+    color: white;
+    font-size: 17px;
+    
+
+  }
+.rubens {
+  padding-bottom: 16px;
+  }
+  
+  .menu{
+    display: flex;
+    gap: 25px;
+color: aliceblue;
+  }
+  main{
+    background-image: url('./image/Screenshot_2.png') ;
+  width: 100%;
+  height: 100vh;
+    background-size: 100%;
+  }
+
+
+.conteudo-principal-texto{
+    display: flex;
+
+flex-direction: column;
+align-items: center;
+    
+justify-content:center ;
+}
+.conteudo-principal{
+display: flex;
+flex-direction: column;
+padding-top: 300px;
+}
+ .conteudo-principal .texto-secundario{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:  gainsboro;
+}
+.texto-principal{
+  color:  gainsboro;
+}
+button{
+  margin-top: 200px;
+}
+
+.texto-principal{
+  font-size: 35px;
+  font-weight: 420px;
+}
+.texto-secundario{
+  font-size:146px ;
+}
+
+
+  
+
+
+.texto-secundario{
+  position: absolute;
+margin: 20px;
+
+}
+.botao{
+  height: 40px;
+  width: 140px;
+  background-color: blue;
+  color: aliceblue;
+}
+.suporte{
+  height: 60px;
+  width: 260px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  color: white;
+}
+.conversa{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 20px;
+} 
+.menu .menu-item{
+  color: aliceblue;
+}
